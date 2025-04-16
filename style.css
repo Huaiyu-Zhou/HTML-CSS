@@ -3,3 +3,34 @@ body{
   font-size:18px;
 }
   
+header{
+  background-color: blanchedalmond;
+}
+
+header nav{
+  background-color: aqua;
+}
+
+main{
+  background-color: rgb(240, 9, 147);
+  font-size: 30px;
+}
+
+footer{
+  background-color: rgb(215, 102, 54);
+}
+
+li{
+  display: inline-block;
+  width: 200px;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: #0909f2;
+}
+
+p{
+  line-height: 30px;
+}
