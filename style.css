@@ -8,7 +8,16 @@ header{
 }
 
 header nav{
-  background-color: aqua;
+  display: inline-block;
+  width: 70%;
+  position: relative;
+  top: -100px;
+}
+
+header img{
+  width: 10%;
+    position: relative;
+    top: 37px;
 }
 
 main{
@@ -23,7 +32,7 @@ footer{
 li{
   display: inline-block;
   width: 200px;
-}
+} 
 
 h1{
   text-align: center;
@@ -33,4 +42,22 @@ h1{
 
 p{
   line-height: 30px;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns:40% 40%;
+  row-gap: 10px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.grid img{
+  width: 100%;
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
